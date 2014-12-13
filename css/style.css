@@ -1,0 +1,44 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    background-image: url('img/paper.png');
+    background-repeat: repeat;
+}
+img {
+    border-radius: 0.5em;
+    margin: 2em auto;
+    -moz-box-shadow: 0 0 0.5em #404040;
+    -webkit-box-shadow: 0 0 0.5em #404040;
+    box-shadow: 0 0 0.5em #404040;
+}
+nav {
+    -moz-box-shadow: 0 0.5em 1em -0.5em #404040;
+    -webkit-box-shadow: 0 0.5em 1em -0.5em #404040;
+    box-shadow: 0 0.5em 1em -0.5em #404040;
+    padding-bottom: 0.5em;
+    background-color: #EBEBEB;
+}
+h2, h3 {
+    padding-bottom: 0.5em;
+    font-weight: bold;
+}
+blockquote {
+    font-style: italic;
+}
+footer {
+    padding-top: 3em;
+    font-size: 0.8em;
+}
+.tab-pane {
+    margin: 2em;
+    padding: 0.8em;
+    -moz-box-shadow: 0 0 0.8em #404040;
+    -webkit-box-shadow: 0 0 0.8em #404040;
+    box-shadow: 0 0 0.8em #404040;
+    background-image: url('img/paper.png');
+    background-repeat: repeat;
+}
+#welcome {
+    font-size: 1.4em;
+}
